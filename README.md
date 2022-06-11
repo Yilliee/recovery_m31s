@@ -1,4 +1,4 @@
-## TWRP device tree for the Samsung Galaxy A51 4G (SM-A515F).
+## TWRP device tree for the Samsung Galaxy M31s (SM-M317F).
 
 ## How-to compile it:
 
@@ -6,5 +6,5 @@ To build:
 
 ```sh
 . build/envsetup.sh
-lunch twrp_a51-eng
+lunch twrp_m31s-eng
 mka recoveryimage```
