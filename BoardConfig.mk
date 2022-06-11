@@ -24,5 +24,9 @@ else
 	BOARD_PREBUILT_DTBIMAGE_DIR := $(DEVICE_PATH)/prebuilts/dtb
 endif
 
+# Super Parititon Size
+BOARD_SUPER_PARTITION_SIZE := 8011120640
+BOARD_GOOGLE_DYNAMIC_PARTITIONS_SIZE := $(BOARD_SUPER_PARTITION_SIZE)
+
 # Inherit from universal9611-common tree
 -include device/samsung/universal9611-common/BoardConfigCommon.mk
